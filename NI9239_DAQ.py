@@ -1,4 +1,5 @@
-# MIT License
+# .copyright : (c) 2021 Istituto Nazionale di Ricerca Metrologica
+# .license : MIT License (https://opensource.org/licenses/MIT)
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from pyqtgraph import PlotWidget
