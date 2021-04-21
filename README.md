@@ -16,7 +16,8 @@ Il NI9239 è un modulo di input tensione Serie C a 4 canali, prodotto dalla Nati
 Il CompactDAQ è una piattaforma di acquisizione dati che include un set di hardware e software compatibili. Esso integra l’hardware per l’I/O dei dati con il software per consentire di raccogliere, elaborare e analizzare i dati delle misurazioni.
 L’hardware è composto da due parti:
 	Uno chassis, che controlla il trasferimento dei dati tra i moduli di I/O e il computer. Fornisce inoltre un clock per il timing e la sincronizzazione tra tutti i moduli nel sistema. Sono disponibili diverse tipologie di chassis: USB, Ethernet, Wireless.
-	I moduli Serie C, con input e output analogici, responsabili del condizionamento (come per esempio amplificazione, filtraggio) dei segnali. Inoltre, per testare il software sviluppato, è stato usato il generatore di funzioni Agilent 33250A.
+I moduli Serie C, con input e output analogici, responsabili del condizionamento (come per esempio amplificazione, filtraggio) dei segnali.
+Inoltre è stato implementato il controllo remoto congiunto di un generatore di funzioni (modello Agilent 33250A), in modo da generare forme d'onda note e verificare il corretto funzionamento dell'applicazione.
 
 
 Software
