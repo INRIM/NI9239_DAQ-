@@ -17,7 +17,7 @@ import pyvisa as visa
 import numpy as np
     
 
-#PARAMETRI DEL GENERATORE DI FUNZIONI (AWG)
+#PARAMETRI DEL GENERATORE DI FUNZIONI AGILENT AWG33250A (AWG) - utilizzato per testare il modulo NI9239 da remoto
 MAX_AMP = 1 # ampiezza massima in volt
 MAX_OFFSET = 1 # offset massimo in volt
 MAX_FREQ = 1000 # frequenza del segnale sinusoidale in hertz
