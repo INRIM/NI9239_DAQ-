@@ -129,9 +129,13 @@ E’ stato realizzato l’algoritmo della FFT (Fast Fourier Transform) che è ot
 Alla funzione fft() si passa la sequenza di valori di cui si vuole calcolare la trasformata e si ottiene un array contente la DFT (Discrete Fourier Transform).
 Invece fftfreq() ha come parametri il numero di elementi della sequenza (n) e l’inverso della frequenza di acquisizione (ovvero il periodo), e ritorna un array di lunghezza n contenente i campioni di frequenza. 
 E’ stato inoltre implementata una window (finestra) per il segnale, ovvero una funzione matematica che vale zero al di fuori di un certo intervallo, e che serve per pesare in modo diverso i dati acquisiti nel dominio del tempo. Applicare una finestra provoca una distorsione sull’ampiezza e sull’energia del segnale, quindi servono dei fattori di correzione, per i due parametri, che variano a seconda della tipologia di window utilizzata. Non è possibile però correggere contemporaneamente questi due valori e in questo caso è stato applicato solo il fattore di correzione per l’ampiezza. L’utente può scegliere dall’interfaccia grafica tra quattro tipologie di window:
+
 	Rectangular: fattore di correzione per l’ampiezza = 1
+	
 	Hanning: fattore di correzione per l’ampiezza = 2
+	
 	Hamming: fattore di correzione per l’ampiezza = 1.85
+	
 	Blackman: fattore di correzione per l’ampiezza = 2.80
 
 Metodo pressedInitializeAWG()
