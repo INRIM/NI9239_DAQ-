@@ -1,3 +1,5 @@
+# MIT License
+
 from PyQt5 import QtCore, QtGui, QtWidgets
 from pyqtgraph import PlotWidget
 from PyQt5.QtWidgets import QMessageBox, QInputDialog, QWidget, QBoxLayout, QCheckBox, QPushButton
@@ -19,7 +21,6 @@ MAX_AMP = 1 # ampiezza massima in volt
 MAX_OFFSET = 1 # offset massimo in volt
 MAX_FREQ = 1000 # frequenza del segnale sinusoidale in hertz
 AWG_GPIB_ADDRESS = 10 # indirizzo GPIB, visibile su NI MAX
-
 
 
 # CLASSE DELLA FINESTRA PRINCIPALE, realizzata cn PyQt5
@@ -1132,7 +1133,7 @@ class AgilentAWG(object):
     
 if __name__ == "__main__":
     
-    app=0   #evita il krush del kernel alla chiusura della GUI
+    app=0   #evita il crash del kernel alla chiusura della GUI
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = MyWindow()  #definisco MainWindow con la classe MyWindow() per ridefinire cos' il metodo closeEvent() della finestra principale
     ui = Ui_MainWindow()
