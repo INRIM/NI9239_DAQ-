@@ -182,13 +182,21 @@ I popup visualizzati nel programma sono:
 Riferimenti
 
 https://nidaqmx-python.readthedocs.io/en/latest/#
+
 https://github.com/ni/nidaqmx-python
+
 https://www.ni.com/pdf/manuals/371747f.pdf
+
 https://www.ni.com/pdf/manuals/375939a.pdf
+
 https://www.ni.com/pdf/manuals/375939b_02.pdf
+
 https://doc.qt.io/qtforpython/
+
 https://github.com/PyQt5
+
 https://community.sw.siemens.com/s/article/window-correction-factors
+
 https://zone.ni.com/reference/en-XX/help/370689M-01/daqmxtutorial/newconceptsinnidaqmx/
 
 
