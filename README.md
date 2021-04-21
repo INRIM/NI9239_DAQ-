@@ -2,7 +2,7 @@
 Software per acquisizione, visualizzazione in tempo reale, ed elaborazione di segnali di tensione tramite moduli National Instruments NI9239.
 
 
-Documentazione relativa al software di acquisizione dati in Python per un campionatore di segnali di tensione, il modulo NI9239, installato sul chassis CompactDAQ 9172 (prodotti dalla National Instruments).
+Documentazione relativa al software di acquisizione dati in Python per un campionatore di segnali di tensione, il modulo NI9239, installato sul chassis compatibile (es.cDAQ9172), prodotti dalla National Instruments.
 Il software è sviluppato in  Python.
 L’interfaccia grafica (GUI) del software è stata sviluppata tramite PyQt5, un modulo di Python che permette di usare le librerie grafiche di Qt. Una delle caratteristiche principali di Qt è l’uso del meccanismo di Signal and Slot: un widget, che è un componente grafico dell’interfaccia utente di un programma, può emettere un segnale in seguito a un’azione eseguita dall’utente, per esempio un pulsante che viene cliccato; questo segnale viene poi connesso al rispettivo slot, cioè un metodo, che verrà eseguito.
 Python supporta il multithreading, ovvero l’esecuzione in parallelo di più processi. Questa funzionalità è stata sfruttata per separare l’acquisizione dei dati dall’interazione dell’utente con l’interfaccia. E’ stato quindi creato un sotto-processo (thread) che viene eseguito indipendentemente dal resto del codice e che sfrutta il meccanismo di Signal and Slot per comunicare con il processo principale.
